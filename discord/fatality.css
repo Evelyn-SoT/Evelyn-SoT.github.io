@@ -10,15 +10,8 @@
 
 /* IMPORT CSS FROM GITHUB */
 @import "https://evelyn-sot.github.io/discord/theme.css";
-/*
-===== IMPORTANT =====
-CHANGE DISCORDS THEME TO DARK THEME IN APPEARANCE SETTINGS FOR THIS THEME TO WORK!
-
-Registered: Black Box Theme
-
-===== CUSTOMIZABLE COLORS AND IMAGES =====
-*/
-
+@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
+@import url("https://codedotspectra.github.io/themes/core/badges.css");
 :root {
   --roundness: 50px; /* edit roundness of icons from 0px to 50px */
  --main-color: #007dbd; /* Main Color */
@@ -31,6 +24,7 @@ Registered: Black Box Theme
 --popup-background: url(https://evelyn-sot.github.io/image.png);  /* Background for popups and modals */
   --background-darkness: 0.15; /* change the darkness of your background. 1 makes it completely black, 0 makes it like the original image */
 }
+/*
 /**
 *
 **/
