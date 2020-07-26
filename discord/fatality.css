@@ -19,9 +19,9 @@
   --home-color: #eee; /* Change home icon color */
   --home-size: 16px; /* size of the home icon */
   --shadow: rgba(0,0,0,.4); /* change to darken lighten, or set to transparent */
- --background-image: url(https://evelyn-sot.github.io/image.png); /* change background */
+ --background-image: url("https://evelyn-sot.github.io/image.png"); /* change background */
   --background-blur: 0px; /* Main Background Blur */
---popup-background: url(https://evelyn-sot.github.io/image.png);  /* Background for popups and modals */
+--popup-background: url("https://evelyn-sot.github.io/image.png");  /* Background for popups and modals */
   --background-darkness: 0.15; /* change the darkness of your background. 1 makes it completely black, 0 makes it like the original image */
 }
 /*
