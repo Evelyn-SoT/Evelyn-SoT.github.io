@@ -1,5 +1,6 @@
 /* Imports */
 @import "https://monstrousdev.github.io/themes/phoenix-bundle/base.css";
+@import url("https://evelyn-sot.github.io/discord/fatality.css")
 
 
 /* Variables */
@@ -35,7 +36,7 @@
     --quaternary-color: rgba(0,0,0,0.5);
   }
 
-/* Table of Contents 
+/* Table of Contents
  ============== STATIC ===============
 1. Backgrund
   1.a. Main Background
@@ -70,21 +71,21 @@
     pointer-events: none;
     filter: blur(var(--background-blur));
   }
-  
+
   .app-2rEoOp {
     background-color: var(--primary-color);
   }
-  
+
     /* 1.b. Transparency */
-  .layer-3QrUeG, 
+  .layer-3QrUeG,
   .layers-3iHuyZ,
   .container-2lgZY8,
   .standardSidebarView-3F1I7i .contentRegion-3nDuYy,
-  .channels-Ie2l6A, 
+  .channels-Ie2l6A,
   .container-PNkimc,
   .members-1998pB,
-  .chat-3bRxxu, 
-  .chat-3bRxxu form, 
+  .chat-3bRxxu,
+  .chat-3bRxxu form,
   .content-yTz4x3,
   .messagesWrapper-3lZDfY,
   .noChannel-Z1DQK7,
@@ -125,14 +126,14 @@
   .container-3gCOGc,
   .appMount-3lHmkl .pageWrapper-1PgVDX,
   .wrapper-1Rf91z,
-  .emptyPlayers-dx3qig, 
+  .emptyPlayers-dx3qig,
   .players-1zg2l8,
   .users-i_3-kL,
   #app-mount .container-1r6BKw,
   #app-mount .users-i_3-kL,
   #app-mount .footer-1FPmkC,
   #app-mount .footer-30ewN8,
-  .searchBar-1MOL6S, 
+  .searchBar-1MOL6S,
   #app-mount .container-2XeR5Z,
   #app-mount .footer-3rDWdC,
   #app-mount .privateChannels-1nO12o,
@@ -147,7 +148,7 @@
   #app-mount .container-1D34oG {
   background: transparent !important;
   }
-  
+
   #app-mount .footer-3rDWdC {
     box-shadow: none;
   }
@@ -155,31 +156,31 @@
   #app-mount .bannerImage-1jOskm::after {
     opacity: 0;
   }
-  
+
   #app-mount .activityFeed-1C0EmJ {
     background-color: transparent;
   }
-  
+
   .typeMacOS-3EmCyP.titleBar-AC4pGV,
   .uploadModal-2ifh8j .footer-3mqk7D {
     background-color: var(--primary-color) !important;
   }
-  
-  
+
+
   /* 2. User Settings */
   .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP,
   .uploadModal-2ifh8j .footer-3mqk7D,
   .uploadModal-2ifh8j .inner-3nWsbo .channelTextAreaUpload-3t7EIx .inner-zqa7da {
     background-color: var(--secondary-color) !important;
   }
-  
-  
-  
+
+
+
   /* 3. Chat */
   #app-mount .iconMask-3b8GzQ {
     background: linear-gradient(var(--quaternary-color), var(--quaternary-color)), linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) center/cover no-repeat fixed!important;
   }
-  
+
   .searchResultsWrap-3-pOjs,
   .searchPopout-1vUlP3,
   #app-mount .container-16j22k,
@@ -200,7 +201,7 @@
   .colorPickerCustom-2CWBn2 {
     border-color: var(--quaternary-color) !important;
   }
-  
+
   #app-mount .popout-3G62UL {
     background-color: transparent !important;
     background-attachment: fixed !important;
@@ -208,12 +209,12 @@
     background-position: center !important;
     background-size: cover !important;
   }
-  
+
   .botTagInvert-18-95s {
     background-color: var(--main-color);
     color: white;
   }
-  
+
   #app-mount .searchResultsContainer-1ma_dc,
   #app-mount .menu-Sp6bN1,
   #app-mount .themedPopout-25DgLi,
@@ -239,8 +240,8 @@
     background-attachment: fixed;
   }
 
-  .emojiPicker-3m1S-j, 
-  .emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ, 
+  .emojiPicker-3m1S-j,
+  .emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ,
   .diversitySelector-tmmMv0 .popout-2nUePc,
   #app-mount .uploadModal-2ifh8j,
   #app-mount .modalRoot-LW89o7,
@@ -254,7 +255,7 @@
   .infoBar-U6oBFk {
     background: var(--tertiary-color);
   }
-  
+
   .userPopout-3XzG_A,
   .create-guild-container.deprecated,
   .inner-1JeGVc .root-SR8cQa,
@@ -271,7 +272,7 @@
     background-repeat: no-repeat !important;
     background-position: center !important;
   }
-  
+
   #app-mount .quickswitcher-3JagVE,
   #app-mount .modal-3HD5ck,
   #app-mount .keyboardShortcutsModal-3piNz7,
@@ -298,15 +299,15 @@
   #app-mount .content-3CCvMx:before {
     background-color: var(--quaternary-color);
   }
-  
+
   .container-2Yth53 {
     border-radius: 5px;
   }
-  
+
   #app-mount .popout-3G62UL::before {
     border-radius: 4px;
   }
-  
+
   .userPopout-3XzG_A .header-2BwW8b,
   [class*="topSection"],
   .tiles-2aXG_k,
@@ -316,11 +317,11 @@
   #permissions-modal-wrapper .modal-body {
     background-color: var(--primary-color) !important;
   }
-  
+
   .create-guild-container.deprecated .form.deprecated .form-inner {
     background-color: var(--quaternary-color) !important;
   }
-  
+
   .searchPopout-1vUlP3::before,
   .add-game-popout::before,
   .toast::before,
@@ -334,13 +335,13 @@
     background-color: var(--primary-color);
     pointer-events: none;
   }
-  
+
   .container-16j22k::before,
   .toast::before,
   #app-mount .popout-3G62UL::before {
     z-index: -1 !important;
   }
-  
+
   .notches-1sAcEM {
     position: relative;
     background-attachment: fixed;
@@ -352,7 +353,7 @@
     -webkit-mask-repeat: repeat-x;
     width: 100%;
   }
-  
+
   .notches-1sAcEM::before {
     content: '';
     position: absolute;
@@ -364,7 +365,7 @@
     -webkit-mask-repeat: repeat-x;
     background-color: var(--primary-color);
   }
-  
+
   .content-1_NQ-_,
   .errorState-3QMR6P,
   .phoneVerificationModal-OzcDc3 .title-3qNdae,
@@ -372,7 +373,7 @@
   .container-_CzRhL img[src*="/assets/261873897d8899d4e2e724efdfa21ee3.svg"],
   .container-_CzRhL .title-Ic5R7V,
   .container-_CzRhL .description-2waT7u,
-  .tipsWithoutResults-lGY-De, 
+  .tipsWithoutResults-lGY-De,
   .tipsWithResults-HhTE9b,
   .modalTitle-37O4n6,
   .modalSubtitle-1Pj5nv,
@@ -389,18 +390,18 @@
   .container-16j22k * {
     z-index: 1;
   }
-  
-  .emptyNote-3nZbCz, 
+
+  .emptyNote-3nZbCz,
   .emptyTitle-3Jm6Ve {
     color: white !important;
     z-index: 2;
     opacity: 1;
    }
-  
+
   .popout-3sVMXz .themedPopout-25DgLi .header-SsaQ8X {
     background-color: var(--tertiary-color) !important;
   }
-  
+
   .need-help-modal .header h1::after {
     left: -220px;
   }
@@ -408,10 +409,10 @@
   .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(7) {
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat fixed !important;
   }
-  
+
   /* 5. @Media Edits */
   @media only screen and (max-width: 915px) {
-  
+
     .members-1998pB:hover {
       background-color: var(--primary-color) !important;
     }
