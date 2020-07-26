@@ -31,3 +31,30 @@ Registered: Black Box Theme
 --popup-background: url(https://evelyn-sot.github.io/image.png);  /* Background for popups and modals */
   --background-darkness: 0.15; /* change the darkness of your background. 1 makes it completely black, 0 makes it like the original image */
 }
+/**
+*
+**/
+@font-face {
+font-family: 'Josefin Sans';
+src: url('https://images.wikia.nocookie.net/survivor/images/5/5d/Optimus_Princeps.ttf');
+}
+body, div, span, textarea, ::-webkit-input-placeholder {
+/**
+* Changing fonts.
+* Syntax: font-family: 'font name', fallbacks?, font type?;
+* Fallbacks are optional, font type is optional but helps the font render properly.
+* Example: font-family: 'Whitney', 'Arial', sans-serif;
+*/
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.hljs,
+.inline,
+.hljs :-webkit-any(ol, li, span),
+.editor-wrapper :-webkit-any(textarea, div, span) {
+/**
+* Keep Custom CSS editor and code related parts untouched.
+* Avoids issues when working with the Custom CSS editor.
+*/
+font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+}
