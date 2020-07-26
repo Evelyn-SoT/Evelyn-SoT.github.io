@@ -1,19 +1,45 @@
 /* Imports */
 @import "https://monstrousdev.github.io/themes/phoenix-bundle/base.css";
-@import url("https://evelyn-sot.github.io/discord/fatality.css")
 
 
 /* Variables */
 
 :root {
-  --theme-name: "Reborn";
-  --blackout: black;
-  --dark: #333;
-  --lighter: #666;
-  --bright: #ccc;
-  --background-blur: 0px;
-  --popup-blur: 0px;
-  --background-darkness: 0.75
+  --roundness: 50px; /* edit roundness of icons from 0px to 50px */
+ --main-color: #007dbd; /* Main Color */
+  --hover-color: #03679b; /* Hover Color */
+  --home-color: #eee; /* Change home icon color */
+  --home-size: 16px; /* size of the home icon */
+  --shadow: rgba(0,0,0,.4); /* change to darken lighten, or set to transparent */
+ --background-image: url(https://evelyn-sot.github.io/image.png); /* change background */
+  --background-blur: 0px; /* Main Background Blur */
+--popup-background: url(https://evelyn-sot.github.io/image.png);  /* Background for popups and modals */
+  --background-darkness: 0.15; /* change the darkness of your background. 1 makes it completely black, 0 makes it like the original image */
+}
+
+@font-face {
+font-family: 'Josefin Sans';
+src: url('https://images.wikia.nocookie.net/survivor/images/5/5d/Optimus_Princeps.ttf');
+}
+body, div, span, textarea, ::-webkit-input-placeholder {
+/**
+* Changing fonts.
+* Syntax: font-family: 'font name', fallbacks?, font type?;
+* Fallbacks are optional, font type is optional but helps the font render properly.
+* Example: font-family: 'Whitney', 'Arial', sans-serif;
+*/
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.hljs,
+.inline,
+.hljs :-webkit-any(ol, li, span),
+.editor-wrapper :-webkit-any(textarea, div, span) {
+/**
+* Keep Custom CSS editor and code related parts untouched.
+* Avoids issues when working with the Custom CSS editor.
+*/
+font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
 }
 
   /* Dark Mode */
